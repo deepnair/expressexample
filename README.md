@@ -62,7 +62,7 @@ This is based on [Express JS (Node REST API) Crash Course](https://www.youtube.c
     module.exports = router;
 1. In the index.ts add:
     ```
-    app.use('/todos', require('../routes/todos.ts));
+    app.use('/todos', require('../routes/todos.ts'));
     ```
 1. Then you can go back to the todos.ts and chanage all the apps to router and change all the /todos in the functions to just nothing.
 1. Finally to add a sample authentication middleware, create a middleware folder with a checkAuth.js file.
